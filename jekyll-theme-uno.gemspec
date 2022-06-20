@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'jekyll-theme-uno'
-  spec.version       = '0.1.0'
+  spec.version       = '0.1.1'
   spec.authors       = ['Luiz Claudio Moreira Junior']
   spec.email         = ['git@luizclaudiomoreira.com']
 
