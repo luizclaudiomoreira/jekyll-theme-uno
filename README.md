@@ -1,54 +1,36 @@
-# jekyll-uno
+# jekyll-theme-uno (this just ports the theme to be used as a gem)
 
-Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
+The original theme can be found on [https://github.com/joshgerdes/jekyll-uno](https://github.com/joshgerdes/jekyll-uno)
 
-> :warning:
-  This theme requires ruby and rubygems installed
+## Installation
 
-### Features
+Add this line to your Jekyll site's `Gemfile`:
 
-* Clean layout
-* Resposive layout
-* Pagination
-* Syntax highlighting
-* Social links
-* Tags listing page
-* Categories listing page
-* Google Analytics integration
-* Disqus integration
-
----
-
-### Install and Test
-
-1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
-2. Enter the folder: `cd jekyll-uno/`
-3. If you don't have bundler installed: `gem install bundler`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `bundle exec jekyll serve --watch`
-
-Access via: [http://localhost:4000/jekyll-uno/](http://localhost:4000/jekyll-uno/)
-
-If you would like to run without using the `github-pages` gem, update your Gemfile to the following:
-
+```ruby
+gem "jekyll-theme-uno", git: 'https://github.com/luizclaudiomoreira/jekyll-theme-uno.git'
 ```
-source 'https://rubygems.org'
-gem 'jekyll-paginate'
-gem 'jekyll-watch'
-gem 'kramdown'
-gem 'kramdown-parser-gfm'
+
+And add this line to your Jekyll site's `_config.yml`:
+
+```yaml
+theme: jekyll-theme-uno
 ```
----
 
-### Demo and Download
+And then execute:
 
+    $ bundle install # or update
+
+Or install it yourself as:
+
+    $ gem install jekyll-theme-uno
+
+## Demo
 [Demo](http://joshgerdes.com/jekyll-uno/)
-[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
 
-![jekyll-uno - free Jekyll theme](/screenshot.png)
+![jekyll-uno - free Jekyll theme](https://raw.githubusercontent.com/joshgerdes/jekyll-uno/master/screenshot.png)
 
 ---
 
-### Copyright and license
+## License
 
-It is under [the MIT license](/LICENSE).
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
